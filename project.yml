@@ -1,0 +1,16 @@
+name: Lab2
+options:
+  bundleIdPrefix: com.palmer
+  deploymentTarget:
+    iOS: "18.0"
+targets:
+  Lab2:
+    type: application
+    platform: iOS
+    sources:
+      - Lab2
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.palmer.lab2
+        GENERATE_INFOPLIST_FILE: YES
+        SWIFT_VERSION: "6.0"
